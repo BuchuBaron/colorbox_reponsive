@@ -1,0 +1,8 @@
+name: colorbox_responsive
+type: module
+description: Decorate responsive images via jQuery so that they become colorbox-active.
+core: 8.x
+package: HoneyBadger
+dependencies:
+  - colorbox
+  - responsive_image

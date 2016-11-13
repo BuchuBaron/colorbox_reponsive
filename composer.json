@@ -1,0 +1,14 @@
+{
+  "name": "drupal/colorbox_responsive",
+  "type": "drupal-module",
+  "description": "Decorate responsive images via jQuery so that they become colorbox-active.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/colorbox_responsive",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/colorbox_responsive",
+    "source": "http://cgit.drupalcode.org/colorbox_responsive"
+  },
+  "require": { }
+}

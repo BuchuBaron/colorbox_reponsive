@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains colorbox_responsive.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function colorbox_responsive_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the colorbox_responsive module.
+    case 'help.page.colorbox_responsive':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Decorate responsive images via jQuery so that they become colorbox-active.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
