@@ -1,0 +1,7 @@
+colorbox-responsive:
+  version: 1.x
+  js:
+    js/colorbox-responsive.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

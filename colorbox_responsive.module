@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains colorbox_responsive.module..
+ * Contains colorbox_responsive.module.
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
@@ -21,4 +21,11 @@ function colorbox_responsive_help($route_name, RouteMatchInterface $route_match)
 
     default:
   }
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function colorbox_responsive_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'colorbox_responsive/colorbox-responsive';
 }
